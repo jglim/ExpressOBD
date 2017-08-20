@@ -1,7 +1,7 @@
 [![ExpressOBD](https://raw.github.com/jglim/ExpressOBD/master/ExpressOBD.png)](https://raw.github.com/jglim/ExpressOBD/master/ExpressOBD.exe)
 
 # ExpressOBD
-_Free control utility for your ELM327-based OBD2 to clear MIL ("Check Engine Light")_
+_Free control utility for your ELM327-based OBD2 device to clear MIL ("Check Engine Light")_
 
 ## Usage
 
