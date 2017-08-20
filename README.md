@@ -58,8 +58,6 @@ _ExpressOBD supports all serial devices conforming to the ELM327 protocol, even 
 _Some error codes including Mode 0A (Permanent Trouble Codes) are unaffected by the reset process and can only be cleared by ECU._
 
 
----
-
 # How does ExpressOBD work?
 
 In brief, ExpressOBD connects to the ELM327 based device and issues the `Mode 04` command. The command, as described by the datasheet, does the following:
