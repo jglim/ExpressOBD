@@ -224,8 +224,8 @@ namespace ExpressOBD
                 "Would you like to continue?", "Confirm Reset", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
             {
                 numberOfPromptsSinceInit = 99999;
-                sp.Write("0100\r"); // 01 for dry run
-                //sp.Write("04\r"); // 04 will actually do the reset
+                //sp.Write("0100\r"); // 01 for dry run
+                sp.Write("04\r"); // 04 will actually do the reset
             }
         }
 
