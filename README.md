@@ -16,29 +16,45 @@ _Free control utility for your ELM327-based OBD2 device to clear MIL ("Check Eng
 ## Troubleshooting & FAQ
 
 **Is this really free?**
+
 _Yes - free (as in beer) and also open source (MIT). This utility is built to enable auto enthusiasts and workshops to quickly and easily clear the MIL light. 
 ExpressOBD may also be of use to owners of "knockoff" ELM327 devices _(ebay, Aliexpress)_ that do not trust the provided software. Note that drivers are still required to interface with the hardware._
 
+
 **Does this actually solve the vehicle's problem?**
+
 _No. Make sure that the issue that initiated the MIL has been completely resolved before resetting the MIL._ 
 
+
 **There are no serial ports listed in ExpressOBD**
+
 _Ensure that corresponding serial drivers are installed. Your vendor should provide the corresponding drivers. Windows Update may also be able to find the appropriate drivers._
 
+
 **Which serial port should I select?**
+
 _It is usually the largest COM number, but this can be confirmed by unplugging/replugging the device to see if the entry disappears/reappears._
 
+
 **Every serial port throws a "Serial Timeout: Port or baud rate may be incorrectly set" error. What gives?**
+
 _Check with your device's vendor on the baud rate settings. The default communications speed (baud rate) for most ELM327-based devices is set at 38400. Another possibility is that your device's serial drivers are not installed yet._
 
+
 **Why is there an "ECU not detected!" error when attempting to connect?**
+
 _Is your vehicle turned on? At a minimum, the ignition switch should be turned to provide electricity._
+
 _Another possibility is that the OBD2 connection is not properly mated. This can be verified by the "Vehicle Voltage" in the status log, where the expected value should be around 12V._
 
+
 **"No compatible ELM327 device"?**
+
 _ExpressOBD supports all serial devices conforming to the ELM327 protocol, even the "1.5" knockoffs. There are other devices that plug to the OBD2 port but do not use the ELM327 protocol, which ExpressOBD does not support._
 
+
 **The MIL ("Check Engine Light") still remains even after the reset. Why is that so?**
+
 _Some error codes including Mode 0A (Permanent Trouble Codes) are unaffected by the reset process and can only be cleared by ECU._
 ---
 
