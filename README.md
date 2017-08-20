@@ -56,6 +56,8 @@ _ExpressOBD supports all serial devices conforming to the ELM327 protocol, even 
 **The MIL ("Check Engine Light") still remains even after the reset. Why is that so?**
 
 _Some error codes including Mode 0A (Permanent Trouble Codes) are unaffected by the reset process and can only be cleared by ECU._
+
+
 ---
 
 # How does ExpressOBD work?
